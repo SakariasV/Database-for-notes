@@ -30,6 +30,7 @@ def run(cur,con,userdata):
                     loop_number = loop_number + 1
             
                 pick_note = input("")
+                int(pick_note)
                 note = note_list[pick_note]
                 print(note)
                 time.sleep(5)
